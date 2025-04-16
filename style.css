@@ -1,40 +1,119 @@
 *, html {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
+body {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    padding: 0px 30px;
+}
+
+.label {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+html{
+    font-size: 16px;
+}
+
+/* Header */
 
 header {
-    background-color: black;
-    padding: 20px 50px;
+    background-color: #74C69D;
+    width: 100%;
+    height: 12vh;
+}
+
+.btn{
+    padding: 13px 50px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.header-wrapper{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+
 }
 
-
-.logo {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 35px;
-    color: white;
+.logo{
+    width: 187px;
+    display: block;
 }
 
-nav {
+nav{
     display: flex;
-    gap: 20px;
     align-items: center;
+    gap: 30px;
+
 }
 
-nav > a {
-    color: white;
+.menu-item {
+    font-size: 1.25rem;
     text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
+    color: white;
 }
 
-nav  > a:hover {
-    opacity: 0.9;
-    border-bottom: 2px solid white;
+.menu-item:hover {
+    opacity: .70;
 }
 
+/* hero scection */
+
+.hero {
+    background-color: #74C69D;
+    min-height: 88vh;
+    display: flex;
+
+}
+
+.hero-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-content{
+    width: 35%;
+}
+
+.hero-img{
+    width: 55%;
+}
+
+.hero-img > img {
+    width: 100%;
+    display: block;
+}
+
+.hero-label{
+    color: white;
+    margin-bottom: 15px;
+}
+h1{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.hero-text{
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 25px;
+}
+.p-text{
+    font-size: 0.937rem;
+
+}
